@@ -1,0 +1,26 @@
+pandas
+scipy
+scikit-learn
+python-dotenv==0.15.0
+torchtext==0.8.0
+tqdm
+pytest-cov==2.10.1
+torch==1.7.0
+transformers==3.3.1
+pytest==6.2.2
+pytest-cov==2.10.1
+pytest-mock==3.3.1
+azure-storage-blob==12.6.0
+azure.identity==1.4.0
+nvidia-pyindex==1.0.6
+tritonclient==2.6.0
+mlflow==1.15.0
+pytorch-lightning==1.3.5
+# TODO Uncomment the following dependencies after we fix the problem of
+# the very long installation time.
+#azureml-core==1.32.0 # For using Azure ML
+#azure-cli-core==2.26.1 # For authentication with CLI credential
+#packaging>=21.0 # Needed by azureml-core
+#azureml-dataset-runtime==1.32.0 # Used for accessing dataset
+#azureml-pipeline-steps==1.32.0
+#envyaml==1.8.210417 # For loading config
